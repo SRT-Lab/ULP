@@ -1,0 +1,35 @@
+identified_template,type,corr_oracle_templates,num_messages,id_ground
+[ component  state  change:  component  <*>  is  in  the  unavailable  state   ( hwid = <*> )  ] ,Match,['Component State Change: Component <*> is in the unavailable state (HWID=<*>)'],12,E13
+[ clusteraddmember   ( command  <*> )  ] ,Match,['clusterAddMember  (command <*>)'],2,E8
+[ bootgenvmunix   ( command  <*> )  ] ,Match,['bootGenvmunix  (command <*>)'],2,E6
+[ boot   ( command  <*> )  ] ,Match,['boot  (command <*>)'],67,E4
+[ wait   ( command  <*> )  ] ,Match,['wait  (command <*>)'],66,E45
+[ halt   ( command  <*> )  ] ,Match,['halt  (command <*>)'],3,E19
+[ Command  has  completed  successfully ] ,Match,['Command has completed successfully'],10,E12
+[ targeting  domains:node-d2  and  nodes:node- [ <*> ]   child  of  command  <*> ] ,Partial,['Targeting domains:node-D<*> and nodes:node-[<*>-<*>] child of command <*>'],5,E42
+[ targeting  domains:node-d0  and  <*> ] ,Partial,['Targeting domains:node-D<*>and nodes:node-<*>'],2,E43
+[ psu  failure  ambient = <*> ] ,Match,['psu failure\\ ambient=<*>'],5,E35
+[ Temperature   ( 41C )   exceeds  warning  threshold ] ,Partial,['Temperature (<*>C) exceeds warning threshold'],2,E44
+[ clusterfilesystem:  there  is  no  server  for  serverfilesystem  domain  <*> ] ,Partial,['ClusterFileSystem: There is no server for ServerFileSystem domain storage<*>'],32,E10
+[ niff:  node  <*>  detected  a  failed  network  connection  on  network  <*>  via  interface  alt0 ] ,Partial,['NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0'],2,E27
+[ fan  speeds   (   <*> <*> <*>    <*> <*> )  ] ,Match,['Fan speeds ( <*> <*> <*> **** <*> <*> )'],79,E17
+[ fan  speeds   ( <*> 3534  <*>  <*>  <*> <*> )  ] ,Partial,['Fan speeds ( <*> <*> <*> <*> <*> <*> )'],11,E18
+[ Link  error ] ,Match,['Link error'],13,E21
+[ Link  in  reset ] ,Match,['Link in reset'],9,E24
+[ Link  ok ] ,Match,['Link ok'],13,E25
+[ link  error  on  broadcast  tree  interconnect-0t00:00:2:1 ] ,Partial,['Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>'],4,E22
+[ serverfilesystem:  serverfilesystem  <*>  <*>  <*>  <*> ] ,Partial,['ServerFileSystem: ServerFileSystem domain <*> is full'],12,E40
+[ clusterfilesystem:  serverfilesystem  domain  <*>  is  no  longer  served  by  node  <*> ] ,Partial,['ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>'],36,E9
+[ running ] ,Match,['running'],162,E38
+[ blocked ] ,Match,['blocked'],15,E3
+[ not  responding ] ,Match,['not responding'],60,E32
+[ configured  out ] ,Match,['configured out'],91,E14
+[ inconsistent  nodesets  <*>  <*>  ok  <*>  <*>  ok  <*>  <*>  ok  <*>  <*>  ok ] ,Partial,['inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok><*>'],2,E20
+[ active ] ,Match,['active'],5,E1
+[ normal ] ,Match,['normal'],206,E31
+[ warning ] ,Match,['warning'],205,E46
+[ ambient = <*> ] ,Match,['ambient=<*>'],292,E2
+[ critical ] ,Match,['critical'],20,E15
+[ Linkerror  event  interval  expired ] ,Match,['Linkerror event interval expired'],394,E26
+[ link  errors  remain  current ] ,Match,['link errors remain current'],56,E23
+[ niff:  node  <*>  has  detected  an  available  network  connection  on  network  <*>  via  interface  <*> ] ,Partial,"['NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0', 'NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0', 'NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0']",91,E29

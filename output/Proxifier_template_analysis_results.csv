@@ -1,0 +1,21 @@
+identified_template,type,corr_oracle_templates,num_messages,id_ground
+[ <*>  open  through  proxy  <*>  HTTPS ] ,Match,['<*>:<*> open through proxy <*>:<*> HTTPS'],945,E2
+[ <*>  close   <*>  bytes  sent   <*>  bytes  received   lifetime  <*> ] ,Match,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",232,E8
+[ <*>  close   <*>  bytes  sent   <*>  bytes  received   lifetime <*> sec ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",120,E8
+[ <*>  close   <*>  bytes  sent   <*>  bytes   ( <*>  kb )   received   lifetime <*> sec ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",35,E8
+[ <*>  close   <*>  bytes   ( <*>  kb )   sent   <*>  bytes   ( <*>  kb )   received   lifetime  <*> ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",269,E8
+[ <*>  close   <*>  bytes   ( <*>  kb )   sent   <*>  bytes  received   lifetime <*> sec ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",30,E8
+[ <*>  close   <*>  bytes  sent   <*>  bytes   ( <*>  kb )   received   lifetime  <*> ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",133,E8
+[ <*>  close   <*>  bytes   ( <*>  kb )   sent   <*>  bytes  received   lifetime  <*> ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",90,E8
+[ <*>  close   <*>  bytes   ( <*>  kb )   sent   <*>  bytes   ( <*>  kb )   received   lifetime <*> sec ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",25,E8
+[ <*>  open  through  proxy  <*>  SOCKS5 ] ,Match,['<*>:<*> open through proxy <*>:<*> SOCKS5'],2,E1
+[ <*>  close   <*>  bytes   ( <*>  kb )   sent   <*>  bytes   ( <*>  mb )   received   lifetime  <*> ] ,Partial,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",9,E8
+[ <*>  error  :  A  connection  request  was  canceled  before  the  completion. ] ,Match,['<*>:<*> error : A connection request was canceled before the completion.'],29,E7
+[ <*>  error  :  Could  not  connect  through  proxy  <*>  -  Proxy  closed  the  connection  unexpectedly. ] ,Match,['<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy closed the connection unexpectedly.'],3,E6
+[ <*>  error  :  could  not  connect  through  proxy  <*>  -  proxy  server  cannot  establish  a  connection  with  the  target   status  code  <*> ] ,Match,"['<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy server cannot establish a connection with the target, status code <*>']",17,E5
+[ <*>  open  through  proxy  <*>  https ] ,Match,['<*>:<*> open through proxy <*>:<*> HTTPS'],9,E2
+[ <*>  close <*> bytes  sent <*> bytes  received   lifetime  <*> ] ,Match,"['<*> close, <*> bytes<*>sent, <*> bytes<*>received, lifetime <*>']",3,E8
+[ <*>  error  :  Could  not  connect  to  proxy  <*>  -  Could  not  resolve  <*>  error <*> ] ,Match,['<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>'],18,E3
+[ <*>  error  :  could  not  connect  to  proxy  <*>  -  could  not  resolve  <*>  error <*> ] ,Match,['<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>'],2,E3
+[ csdnimg.cn:80  error  :  A  connection  request  was  canceled  before  the  completion. ] ,Partial,['<*>:<*> error : A connection request was canceled before the completion.'],2,E7
+[ <*>  error  :  Could  not  connect  to  proxy  <*>  -  connection  attempt  failed  with  error <*> ] ,Match,['<*>:<*> error : Could not connect to proxy <*>:<*> - connection attempt failed with error <*>'],26,E4

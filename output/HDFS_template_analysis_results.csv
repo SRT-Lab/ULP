@@ -1,0 +1,14 @@
+identified_template,type,corr_oracle_templates,num_messages,id_ground
+[ packetresponder  <*>  for  block  <*>  terminating ] ,Partial,['PacketResponder <*> for block blk_<*> terminating'],311,E10
+[ block  namesystem.addstoredblock:  blockmap  updated:  <*>  is  added  to  <*>  size  <*> ] ,Partial,['BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to blk_<*> size <*>'],314,E6
+[ received  block  <*>  of  size <*> from  /<*> ] ,Partial,['Received block blk_<*> of size <*> from /<*>'],292,E11
+[ receiving  block  <*>  src:  /<*>  dest:  /<*> ] ,Partial,['Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>'],292,E13
+[ block  namesystem.allocateblock:  /<*>.  <*> ] ,Partial,['BLOCK* NameSystem.allocateBlock: /<*>/part-<*>. blk_<*>'],115,E7
+[ verification  succeeded  for  <*> ] ,Partial,['Verification succeeded for blk_<*>'],20,E14
+[ deleting  block  <*>  file  /<*> ] ,Partial,['Deleting block blk_<*> file /<*>/blk_<*>'],263,E9
+[ <*>  served  block  <*>  to  /<*> ] ,Partial,['<*>:<*> Served block blk_<*> to /<*>'],80,E1
+[ <*>got  exception  while  serving  <*>  to  /<*>: ] ,Partial,['<*>:<*>:Got exception while serving blk_<*> to /<*>:'],80,E3
+[ block  namesystem.delete:  <*>  is  added  to  invalidset  of  <*> ] ,Partial,['BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>'],224,E8
+[ block  ask  <*>  to  delete  <*> ] ,Partial,['BLOCK* ask <*>:<*> to delete  blk_<*>'],2,E4
+[ received  block  <*>  src:  /<*>  dest:  /<*>  of  size <*> ] ,Partial,['Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>'],2,E12
+[ block  ask  <*>  to  delete  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*>  <*> ] ,Partial,['BLOCK* ask <*>:<*> to delete  blk_<*>'],2,E4
