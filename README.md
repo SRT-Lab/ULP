@@ -1,11 +1,11 @@
 # ULP : A powerful log parsing approach for large log files
  
 # Required libraires:
-pip install pandas
+- pip install pandas
 
-pip install regex 
+- pip install regex 
 
-pip install sklearn
+- pip install sklearn
 
 # Execution script:
 1) got to your python code repository
