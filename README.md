@@ -1,8 +1,10 @@
 # ULP_
  
 # required libraires:
-pip install pandas \n
-pip install regex \n
+pip install pandas
+
+pip install regex 
+
 pip install sklearn
 
 # execution script:
