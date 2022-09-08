@@ -32,7 +32,7 @@ sh install.sh
 # Execution script:
 - got to your python code repository
 - If you want to run all the techniques, use option `-dataset` as follows:
-``` python ULP_exec.py -dataset=HPC (you can change the dataset)```
+``` python ULP_exec.py -dataset=HPC``` (you can change the dataset)
 
 # Output
 The result of parsing the log file will be a csv file under the output folder in additon to some evaluation reports on the accuracy of the parsing with comparison to the groundtruth.
