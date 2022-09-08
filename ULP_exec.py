@@ -5,10 +5,10 @@ import os
 
 sys.path.append('../')
 
-from ULP import ULP
-from ULP_.ULP_benchmark import benchmark_settings
-from ULP_.common import datasets, common_args
-from ULP_.exec_main import evaluator, prepare_results
+
+from ULP_benchmark import benchmark_settings
+from common import datasets, common_args
+from exec_main import evaluator, prepare_results
 
 input_dir = './input/'  # The input directory of log file
 output_dir = './output'  # The output directory of parsing result
