@@ -5,9 +5,9 @@ import time
 import csv
 
 from multiprocessing import Process
-from ULP_.evaluator import evaluate
-from ULP_.indepth_analysis import evaluate_template_level
-from ULP_.PA_calculator import calculate_parsing_accuracy
+from evaluator import evaluate
+from indepth_analysis import evaluate_template_level
+from PA_calculator import calculate_parsing_accuracy
 
 TIMEOUT = 3600  # log template identification timeout (sec)
 
