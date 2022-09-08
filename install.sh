@@ -5,6 +5,7 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   # install python-dev 
   sudo apt-get update && sudo apt install python2-dev python3-dev 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew install python
 else
   echo 'WARNING: Please manually install python'
