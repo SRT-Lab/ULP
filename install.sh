@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
@@ -6,7 +7,9 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   sudo apt-get update && sudo apt install python2-dev python3-dev 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
   brew install python
+  python3 get-pip.py
 else
   echo 'WARNING: Please manually install python'
 fi
