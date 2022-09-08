@@ -5,7 +5,7 @@ import os
 
 sys.path.append('../')
 
-from ULP_ import ULP
+from ULP import ULP
 from ULP_.ULP_benchmark import benchmark_settings
 from ULP_.common import datasets, common_args
 from ULP_.exec_main import evaluator, prepare_results
