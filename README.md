@@ -11,7 +11,7 @@
 ## Directory Structure
 - `main folder`: code of ULP and helpers libraries
 - `input`: benchmark logs and groundtruth files (Provided by [Zhu et al.](https://dl.acm.org/doi/10.1109/ICSE-SEIP.2019.00021))
-- 'output` : result of the parsing including the csv file containing the templates detected and some analysis file in comparison to the groundtruth
+- `output` : result of the parsing including the csv file containing the templates detected and some analysis file in comparison to the groundtruth
 
 
 # Installation:
