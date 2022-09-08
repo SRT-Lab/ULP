@@ -27,8 +27,8 @@ sh install.sh
 ```
 
 # Execution script:
-1) got to your python code repository
-2)If you want to run all the techniques, use option `-dataset` as follows:
+- got to your python code repository
+- If you want to run all the techniques, use option `-dataset` as follows:
 ``` python ULP_exec.py -dataset=HPC (you can change the dataset)```
 
 # Output
