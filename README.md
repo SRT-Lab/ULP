@@ -1,6 +1,7 @@
 # ULP : A powerful log parsing approach for large log files
 ULP is a highly accurate and efficient Unified Log Parsing tool. ULP combines string matching and local frequency analysis to parse large log files in an efficient manner. First, log events are organized into groups using a text processing method. Frequency analysis is then applied locally to instances of the same group to identify static and dynamic content of log events. When applied to 10 log datasets of the LogPai benchmark, ULP achieves an average accuracy of 89.2%, which outperforms the accuracy of four leading log parsing tools, namely Drain, Logram, SPELL and AEL. Additionally, ULP can parse up to four million log events in less than 3 minutes. ULP can be readily used by practitioners and researchers to parse effectively and efficiently large log files so as to support log analysis tasks.
 Please cite our paper if you use our artefact:
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjChufMnIX6AhV-k4kEHf34BcwQFnoECBMQAQ&url=https%3A%2F%2Fusers.encs.concordia.ca%2F~abdelw%2Fpapers%2FICSME2022_ULP.pdf&usg=AOvVaw2_D3Xmmqtm2y1-PfQIwgVb
 
 ## Requirements
 
