@@ -3,10 +3,11 @@ ULP is a highly accurate and efficient Unified Log Parsing tool. ULP combines st
 
 ## Citation:
 
-If you use ULP, please cite the following paper: <\br>
+If you use ULP, please cite the following paper: 
 
 I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, M. Shehab, "An Effective Approach for Parsing Large Log Files," in Proc. of the 38th IEEE International Conference on Software Maintenance and Evolution (ICSME'22), 2022.
 
+The paper can be downloaded here:  https://users.encs.concordia.ca/~abdelw/papers/ICSME2022_ULP.pdf
 
 ## Requirements
 
